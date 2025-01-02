@@ -1,0 +1,27 @@
+{
+  "name": "notetakingapp",
+  "version": "1.0.0",
+  "description": "This is a notetaking app",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AishaSari/notetakingapp.git"
+  },
+  "author": "Aisha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AishaSari/notetakingapp/issues"
+  },
+  "homepage": "https://github.com/AishaSari/notetakingapp#readme",
+  "devDependencies": {
+    "electron": "^33.2.1"
+  },
+  "dependencies": {
+    "firebase": "^11.1.0",
+    "nedb": "^1.8.0"
+  }
+}
